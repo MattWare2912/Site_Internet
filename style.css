@@ -1,0 +1,11 @@
+body {
+    background-color: #022b3a;
+}
+
+ul.Menu {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    padding: 10px;
+    justify-content: center;
+}
