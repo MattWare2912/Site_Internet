@@ -1,5 +1,8 @@
 body {
     background-color: #022b3a;
+    font-family: 'bebas neue', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
 }
 
 header {
@@ -11,9 +14,16 @@ header {
 
 li, a {
     list-style: none;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
 }
 
 ul.Menu {
     display: flex;
 
+}
+a:hover {
+
+    text-decoration: underline;
 }
