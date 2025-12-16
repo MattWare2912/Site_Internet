@@ -6,16 +6,16 @@ body {
 }
 
 header {
-   background-color: #333;
+   background-color:white;
    display: flex;
    justify-content: space-between;
-   padding: 20px;
+   padding: 5px;
 }
 
 li, a {
     list-style: none;
     margin: 0 10px;
-    color: white;
+    color: #022b3a;
     text-decoration: none;
 }
 
@@ -32,7 +32,11 @@ div.fond {
 background-repeat: no-repeat;
 display: flex;
 justify-content: center;
-width: 100%;
+width: 100vw;
 height: 100vh;
-background-size: cover;
+background-size: 100% 100%;
+}
+
+img.logo_site {
+max-height: 100px;
 }
