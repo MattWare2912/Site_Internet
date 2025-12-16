@@ -27,16 +27,66 @@ a:hover {
 
     text-decoration: underline;
 }
-
-div.fond {
-background-repeat: no-repeat;
-display: flex;
-justify-content: center;
-width: 100vw;
-height: 100vh;
-background-size: 100% 100%;
-}
-
 img.logo_site {
 max-height: 100px;
+}
+
+.accueil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(assets/pexels-pixabay-4158.jpg);
+    background-size: cover;
+}
+
+.réseaux {
+    font-family: 'Impact', cursive;
+    font-size: 40px;
+    color: white;
+    padding: 15px;
+}
+
+.boutton button {
+    background-color: #022b3a;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.boutton button:hover {
+    background-color: #00bbff;
+}
+
+.tarifs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Impact', cursive;
+    color: white ;
+}
+.tarifs_1 {
+    margin: 25px;
+    box-shadow: #19404e;
+    border: white 5px solid;
+    padding: 25px;
+    border-radius: 10px;
+}
+.tarifs_2 {
+    margin: 25px;
+    box-shadow: #19404e;
+    border: white 5px solid;
+    padding: 25px;
+    border-radius: 10px;
+}
+.tarifs_3 {
+    margin: 25px;
+    box-shadow: #19404e;
+    border: white 5px solid;
+    padding: 25px;
+    border-radius: 10px;
 }
