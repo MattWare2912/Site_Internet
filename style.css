@@ -4,21 +4,18 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
 }
-
 header {
    background-color:white;
    display: flex;
    justify-content: space-between;
    padding: 5px;
 }
-
 li, a {
     list-style: none;
     margin: 0 10px;
     color: #022b3a;
     text-decoration: none;
 }
-
 ul.Menu {
     display: flex;
 
@@ -40,14 +37,13 @@ max-height: 100px;
     background-image: url(assets/pexels-pixabay-4158.jpg);
     background-size: cover;
 }
-
 .réseaux {
     font-family: 'Impact', cursive;
     font-size: 40px;
     color: white;
     padding: 15px;
+    animation: fadeIn 2s ease-in-out;
 }
-
 .boutton button {
     background-color: #022b3a;
     color: white;
@@ -57,24 +53,33 @@ max-height: 100px;
     cursor: pointer;
     border-radius: 10px;
 }
-
 .boutton button:hover {
     background-color: #00bbff;
 }
-
+.Services {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', cursive;
+    color: white;
+}
 .tarifs {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-family: 'Impact', cursive;
+    font-family: 'Montserrat', cursive;
     color: white ;
+    font-size: 20px;
 }
 .tarifs_1 {
     margin: 25px;
-    box-shadow: #19404e;
+    box-shadow: #000000;
     border: white 5px solid;
     padding: 25px;
     border-radius: 10px;
+    
+}
+.tarifs_1:hover {
+    transform: scale(1.1);
 }
 .tarifs_2 {
     margin: 25px;
@@ -83,10 +88,47 @@ max-height: 100px;
     padding: 25px;
     border-radius: 10px;
 }
+.tarifs_2:hover {
+    transform: scale(1.1);
+}
 .tarifs_3 {
     margin: 25px;
-    box-shadow: #19404e;
+    box-shadow: #000000;
     border: white 5px solid;
     padding: 25px;
     border-radius: 10px;
+}
+.tarifs_3:hover {
+    transform: scale(1.1);
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.Contact {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', cursive;
+    color: white;
+}
+.tarifs_1, .tarifs_2, .tarifs_3, .Services {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.contactForm {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

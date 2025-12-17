@@ -7,12 +7,7 @@
   </head>
   <body>
     <header>
-      <a href="#"
-        ><img
-          src="assets/logo.png"
-          alt="logo"
-          class = "logo_site"
-      /></a>
+      <a href="#"><img src="assets/logo.png" alt="logo" class="logo_site" /></a>
       <nav>
         <ul class="Menu">
           <li><a href="#">Accueil</a></li>
@@ -23,33 +18,47 @@
       </nav>
     </header>
     <main>
-      <div class = "accueil">
-        <div class = "réseaux">Booste tes réseaux dès maintenant!</div>
-        <div class = "boutton"><a href="#"><button>Contacte-moi!</button></a></div>
+      <div class="accueil">
+        <div class="réseaux">Booste tes réseaux dès maintenant!</div>
+        <div class="boutton">
+          <a href="#"><button>Contacte-moi!</button></a>
+        </div>
       </div>
     </main>
     <section>
+      <h1 class="Services">Ce que je peux faire pour vous :</h1>
       <div class="tarifs">
-        <div class="tarifs_1">Tarif 1</div>
-        <div class="tarifs_2">Tarif 2</div>
-        <div class="tarifs_3">Tarif 3</div>
+        <div class="tarifs_1">
+          <h2>Tarif 1</h2>
+          <p>Contenu du tarif 1</p>
+        </div>
+        <div class="tarifs_2">
+          <h2>Tarif 2</h2>
+          <p>Contenu du tarif 2</p>
+        </div>
+        <div class="tarifs_3">
+          <h2>Tarif 3</h2>
+          <p>Contenu du tarif 3</p>
+        </div>
       </div>
     </section>
-  
+    <section>
+      <h1 class="Contact">Contactez-moi</h1>
+      <form class="contactForm">
+        <label for="name">Nom :</label>
+        <input type="text" class="name" name="name" required />
 
+        <label for="email">Email :</label>
+        <input type="email" class="email" name="email" required />
 
+        <label for="message">Message :</label>
+        <textarea class="message" name="message" rows="5" required></textarea>
 
+        <button type="submit">Envoyer</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
 
-
-
-
-
-
-
-
-
-
-
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
