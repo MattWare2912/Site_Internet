@@ -3,6 +3,8 @@ body {
     font-family: 'bebas neue', sans-serif;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
+    margin: 0;
+    padding: 0;
 }
 header {
    background-color:white;
@@ -143,4 +145,32 @@ max-height: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.contactForm input,
+.contactForm textarea {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 15px;
+}
+.contactSection {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.contactForm button {
+    background-color: white;
+    color: #022b3a;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.contactForm button:hover {
+    background-color: #00bbff;
+    color: white;
 }

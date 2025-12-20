@@ -18,13 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const messageBox = document.getElementById("formMessage");
 
   form.addEventListener("submit", (e) => {
-    e.preventDefault(); // Empêche le rechargement de la page
+    e.preventDefault(); 
 
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const message = document.getElementById("message").value;
 
-    // Vérification simple
+  
     if (name && email && message) {
       messageBox.textContent = "Merci " + name + ", votre message a été envoyé !";
       messageBox.style.color = "lightgreen";
