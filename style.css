@@ -180,3 +180,43 @@ max-height: 100px;
     background-color: #00bbff;
     color: white;
 }
+
+.aboutSection {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Montserrat', cursive;
+}
+
+.aboutSection h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.aboutContent p {
+  flex: 2;
+  text-align: justify;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.photo_perso {
+  flex: 1;
+  max-width: 250px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
