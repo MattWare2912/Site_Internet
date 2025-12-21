@@ -197,7 +197,7 @@ max-height: 100px;
   margin-bottom: 30px;
 }
 
-.aboutContent {
+.aboutcontent {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -205,7 +205,7 @@ max-height: 100px;
   gap: 40px;
 }
 
-.aboutContent p {
+.aboutcontent p {
   flex: 2;
   text-align: justify;
   font-size: 1.1em;
@@ -214,9 +214,27 @@ max-height: 100px;
 
 .photo_perso {
   flex: 1;
-  max-width: 250px;
+  max-width: 350px;
   height: auto;
   border-radius: 50%;
   object-fit: cover;
 }
+
+@media (max-width: 768px) {
+  .aboutContent {
+    flex-direction: column;     
+    text-align: center;        
+    gap: 20px;                   
+  }
+
+  .aboutContent p {
+    text-align: justify;        
+    width: 90%;               
+  }
+
+  .photo_perso {
+    max-width: 70%;             
+  }
+}
+
 
