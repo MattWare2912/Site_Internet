@@ -3,8 +3,7 @@ html {
 }
 body {
     background-color: #022b3a;
-    font-family: 'bebas neue', sans-serif;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Impact', sans-serif;
     font-size: 25px;
     margin: 0;
     padding: 0;
@@ -46,7 +45,7 @@ max-height: 100px;
     background-size: cover;
 }
 .réseaux {
-    font-family: 'Impact', cursive;
+    font-family: 'Impact';
     font-size: 40px;
     color: white;
     padding: 15px;
@@ -60,6 +59,7 @@ max-height: 100px;
     font-size: 25px;
     cursor: pointer;
     border-radius: 10px;
+    font-family: 'Impact';
 }
 .boutton button:hover {
     background-color: #00bbff;
@@ -67,14 +67,14 @@ max-height: 100px;
 .Services {
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', cursive;
+    font-family: 'Helvetica';
     color: white;
 }
 .tarifs {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-family: 'Montserrat', cursive;
+    font-family: 'Montserrat';
     color: white ;
     font-size: 20px;
 }
@@ -133,7 +133,7 @@ max-height: 100px;
 .Contact {
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', cursive;
+    font-family: 'Helvetica';
     color: white;
 }
 .tarifs_1, .tarifs_2, .tarifs_3, .Services {
@@ -188,7 +188,7 @@ max-height: 100px;
   padding: 40px 20px;
   box-sizing: border-box;
   color: white;
-  font-family: 'Montserrat', cursive;
+  font-family: 'Helvetica', sans-serif;
 }
 
 .aboutSection h1 {
